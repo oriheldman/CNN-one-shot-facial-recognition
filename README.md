@@ -10,7 +10,14 @@ model consists of 4 convolutional layers and 2 fully connected layers.
 
 ## Data
 The "Labeled Faces in the Wild-a" (LFW-a) image collection is a database of labeled, face
-images intended for studying Face Recognition in unconstrained images.
+images intended for studying Face Recognition in unconstrained images. We augmented the training set with an affine distortion.
+
+### Train images
+images from 4038 people paired for creating 1100 positive pairs (images from
+same person) and 1100 negative pairs (images from different persons)
+### Test images
+images from 1711 people paired for creating 500 positive pairs (images from
+same person) and 500 negative pairs (images from different persons)
 
 ## Model Results
 | Set / Measure        | Loss           | Accuracy  | AUC
